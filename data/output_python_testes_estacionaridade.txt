@@ -1,0 +1,284 @@
+===================================================================================================================
+OUTPUT PYTHON - TESTES DE ESTACIONARIDADE / RAIZ UNITÁRIA
+Base utilizada: tabela_FINAL_COMPLETA_MODELO.xlsx
+ADF:  H0 = a série tem raiz unitária / não estacionária
+KPSS: H0 = a série é estacionária
+Nível de significância considerado: 5%
+===================================================================================================================
+
+-------------------------------------------------------------------------------------------------------------------
+VARIÁVEL: fund_return
+-------------------------------------------------------------------------------------------------------------------
+BPI América                              | N=182 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+BPI Portugal                             | N=191 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+Caixa Ações EUA                          | N=191 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+Caixa Ações Emergentes                   | N=191 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+Caixa Ações Líderes Globais              | N=147 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+GNB Mercados Emergentes                  | N=191 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+GNB Momentum                             | N=191 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+GNB Portugal Ações                       | N=191 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+IMGA Ações América                       | N=191 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+IMGA Ações Portugal                      | N=191 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+IMGA European Equities                   | N=191 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+IMGA Global Equities Selection           | N=144 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+Montepio Ações Europa                    | N=190 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+Montepio Euro Energy                     | N=191 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+Montepio Euro Financial Servic           | N=191 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+Montepio Euro Healthcare                 | N=191 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+Montepio Euro Utilities                  | N=191 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+Santander Ações Europa                   | N=191 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+Santander Seleção Ações Améric           | N=191 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+
+RESUMO fund_return: ADF estacionárias = 19/19 (100.0%); KPSS estacionárias = 19/19 (100.0%)
+RECOMENDAÇÃO: Manter
+
+-------------------------------------------------------------------------------------------------------------------
+VARIÁVEL: FLOW
+-------------------------------------------------------------------------------------------------------------------
+BPI América                              | N=182 | ADF p= 0.9991 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+BPI Portugal                             | N=191 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.0178 (Não estacionária )
+Caixa Ações EUA                          | N=191 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+Caixa Ações Emergentes                   | N=191 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+Caixa Ações Líderes Globais              | N=147 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+GNB Mercados Emergentes                  | N=190 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+GNB Momentum                             | N=190 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+GNB Portugal Ações                       | N=190 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+IMGA Ações América                       | N=191 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.0100 (Não estacionária )
+IMGA Ações Portugal                      | N=191 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+IMGA European Equities                   | N=191 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.0100 (Não estacionária )
+IMGA Global Equities Selection           | N=144 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.0100 (Não estacionária )
+Montepio Ações Europa                    | N=190 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+Montepio Euro Energy                     | N=190 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+Montepio Euro Financial Servic           | N=190 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+Montepio Euro Healthcare                 | N=190 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+Montepio Euro Utilities                  | N=190 | ADF p= 0.0003 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+Santander Ações Europa                   | N=191 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+Santander Seleção Ações Améric           | N=191 | ADF p= 0.0206 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+
+RESUMO FLOW: ADF estacionárias = 18/19 (94.7%); KPSS estacionárias = 14/19 (73.7%)
+RECOMENDAÇÃO: Manter
+
+-------------------------------------------------------------------------------------------------------------------
+VARIÁVEL: LNTNA
+-------------------------------------------------------------------------------------------------------------------
+BPI América                              | N=183 | ADF p= 0.6713 (Não estacionária ) | KPSS p= 0.0137 (Não estacionária )
+BPI Portugal                             | N=192 | ADF p= 0.7609 (Não estacionária ) | KPSS p= 0.0276 (Não estacionária )
+Caixa Ações EUA                          | N=192 | ADF p= 0.4907 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+Caixa Ações Emergentes                   | N=192 | ADF p= 0.4907 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+Caixa Ações Líderes Globais              | N=149 | ADF p= 0.6241 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+GNB Mercados Emergentes                  | N=192 | ADF p= 0.4365 (Não estacionária ) | KPSS p= 0.1000 (Estacionária     )
+GNB Momentum                             | N=192 | ADF p= 0.4365 (Não estacionária ) | KPSS p= 0.1000 (Estacionária     )
+GNB Portugal Ações                       | N=192 | ADF p= 0.4365 (Não estacionária ) | KPSS p= 0.1000 (Estacionária     )
+IMGA Ações América                       | N=192 | ADF p= 0.9919 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+IMGA Ações Portugal                      | N=192 | ADF p= 0.9919 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+IMGA European Equities                   | N=192 | ADF p= 0.9919 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+IMGA Global Equities Selection           | N=192 | ADF p= 0.9919 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+Montepio Ações Europa                    | N=192 | ADF p= 0.8111 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+Montepio Euro Energy                     | N=192 | ADF p= 0.8111 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+Montepio Euro Financial Servic           | N=192 | ADF p= 0.8111 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+Montepio Euro Healthcare                 | N=192 | ADF p= 0.8111 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+Montepio Euro Utilities                  | N=192 | ADF p= 0.8111 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+Santander Ações Europa                   | N=192 | ADF p= 0.8530 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+Santander Seleção Ações Améric           | N=192 | ADF p= 0.8530 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+
+RESUMO LNTNA: ADF estacionárias = 0/19 (0.0%); KPSS estacionárias = 3/19 (15.8%)
+RECOMENDAÇÃO: Transformar ou remover
+
+-------------------------------------------------------------------------------------------------------------------
+VARIÁVEL: DELTA_LNTNA
+-------------------------------------------------------------------------------------------------------------------
+BPI América                              | N=182 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.0100 (Não estacionária )
+BPI Portugal                             | N=191 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.0100 (Não estacionária )
+Caixa Ações EUA                          | N=191 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+Caixa Ações Emergentes                   | N=191 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+Caixa Ações Líderes Globais              | N=148 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+GNB Mercados Emergentes                  | N=191 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+GNB Momentum                             | N=191 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+GNB Portugal Ações                       | N=191 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+IMGA Ações América                       | N=191 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.0100 (Não estacionária )
+IMGA Ações Portugal                      | N=191 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.0100 (Não estacionária )
+IMGA European Equities                   | N=191 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.0100 (Não estacionária )
+IMGA Global Equities Selection           | N=191 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.0100 (Não estacionária )
+Montepio Ações Europa                    | N=191 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+Montepio Euro Energy                     | N=191 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+Montepio Euro Financial Servic           | N=191 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+Montepio Euro Healthcare                 | N=191 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+Montepio Euro Utilities                  | N=191 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+Santander Ações Europa                   | N=191 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+Santander Seleção Ações Améric           | N=191 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+
+RESUMO DELTA_LNTNA: ADF estacionárias = 19/19 (100.0%); KPSS estacionárias = 13/19 (68.4%)
+RECOMENDAÇÃO: Usar com cautela / testar robustez
+
+-------------------------------------------------------------------------------------------------------------------
+VARIÁVEL: LNAGE
+-------------------------------------------------------------------------------------------------------------------
+BPI América                              | N=183 | ADF p= 0.8254 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+BPI Portugal                             | N=192 | ADF p= 0.4973 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+Caixa Ações EUA                          | N=192 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.0100 (Não estacionária )
+Caixa Ações Emergentes                   | N=192 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.0100 (Não estacionária )
+Caixa Ações Líderes Globais              | N=149 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.0100 (Não estacionária )
+GNB Mercados Emergentes                  | N=192 | ADF p= 0.4973 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+GNB Momentum                             | N=192 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.0100 (Não estacionária )
+GNB Portugal Ações                       | N=192 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.0100 (Não estacionária )
+IMGA Ações América                       | N=192 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.0100 (Não estacionária )
+IMGA Ações Portugal                      | N=192 | ADF p= 0.0010 (Estacionária     ) | KPSS p= 0.0100 (Não estacionária )
+IMGA European Equities                   | N=192 | ADF p= 0.9585 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+IMGA Global Equities Selection           | N=192 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.0100 (Não estacionária )
+Montepio Ações Europa                    | N=192 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.0100 (Não estacionária )
+Montepio Euro Energy                     | N=192 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.0100 (Não estacionária )
+Montepio Euro Financial Servic           | N=192 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.0100 (Não estacionária )
+Montepio Euro Healthcare                 | N=192 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.0100 (Não estacionária )
+Montepio Euro Utilities                  | N=192 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.0100 (Não estacionária )
+Santander Ações Europa                   | N=192 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.0100 (Não estacionária )
+Santander Seleção Ações Améric           | N=192 | ADF p= 0.0000 (Estacionária     ) | KPSS p= 0.0100 (Não estacionária )
+
+RESUMO LNAGE: ADF estacionárias = 15/19 (78.9%); KPSS estacionárias = 0/19 (0.0%)
+RECOMENDAÇÃO: Usar com cautela / testar robustez
+
+-------------------------------------------------------------------------------------------------------------------
+VARIÁVEL: STDFND
+-------------------------------------------------------------------------------------------------------------------
+BPI América                              | N=177 | ADF p= 0.1721 (Não estacionária ) | KPSS p= 0.1000 (Estacionária     )
+BPI Portugal                             | N=186 | ADF p= 0.4552 (Não estacionária ) | KPSS p= 0.0470 (Não estacionária )
+Caixa Ações EUA                          | N=186 | ADF p= 0.1132 (Não estacionária ) | KPSS p= 0.1000 (Estacionária     )
+Caixa Ações Emergentes                   | N=186 | ADF p= 0.0073 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+Caixa Ações Líderes Globais              | N=142 | ADF p= 0.0027 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+GNB Mercados Emergentes                  | N=186 | ADF p= 0.1311 (Não estacionária ) | KPSS p= 0.1000 (Estacionária     )
+GNB Momentum                             | N=186 | ADF p= 0.0852 (Não estacionária ) | KPSS p= 0.1000 (Estacionária     )
+GNB Portugal Ações                       | N=186 | ADF p= 0.2803 (Não estacionária ) | KPSS p= 0.0609 (Estacionária     )
+IMGA Ações América                       | N=186 | ADF p= 0.0828 (Não estacionária ) | KPSS p= 0.1000 (Estacionária     )
+IMGA Ações Portugal                      | N=186 | ADF p= 0.2563 (Não estacionária ) | KPSS p= 0.1000 (Estacionária     )
+IMGA European Equities                   | N=186 | ADF p= 0.1022 (Não estacionária ) | KPSS p= 0.1000 (Estacionária     )
+IMGA Global Equities Selection           | N=139 | ADF p= 0.0325 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+Montepio Ações Europa                    | N=186 | ADF p= 0.2005 (Não estacionária ) | KPSS p= 0.1000 (Estacionária     )
+Montepio Euro Energy                     | N=186 | ADF p= 0.1618 (Não estacionária ) | KPSS p= 0.1000 (Estacionária     )
+Montepio Euro Financial Servic           | N=186 | ADF p= 0.1937 (Não estacionária ) | KPSS p= 0.1000 (Estacionária     )
+Montepio Euro Healthcare                 | N=186 | ADF p= 0.0278 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+Montepio Euro Utilities                  | N=186 | ADF p= 0.2135 (Não estacionária ) | KPSS p= 0.1000 (Estacionária     )
+Santander Ações Europa                   | N=186 | ADF p= 0.3242 (Não estacionária ) | KPSS p= 0.1000 (Estacionária     )
+Santander Seleção Ações Améric           | N=186 | ADF p= 0.6582 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+
+RESUMO STDFND: ADF estacionárias = 4/19 (21.1%); KPSS estacionárias = 17/19 (89.5%)
+RECOMENDAÇÃO: Usar com cautela / testar robustez
+
+-------------------------------------------------------------------------------------------------------------------
+VARIÁVEL: STDMKT
+-------------------------------------------------------------------------------------------------------------------
+BPI América                              | N=171 | ADF p= 0.4202 (Não estacionária ) | KPSS p= 0.0454 (Não estacionária )
+BPI Portugal                             | N=180 | ADF p= 0.4751 (Não estacionária ) | KPSS p= 0.0474 (Não estacionária )
+Caixa Ações EUA                          | N=180 | ADF p= 0.4376 (Não estacionária ) | KPSS p= 0.0696 (Estacionária     )
+Caixa Ações Emergentes                   | N=180 | ADF p= 0.4751 (Não estacionária ) | KPSS p= 0.0474 (Não estacionária )
+Caixa Ações Líderes Globais              | N=149 | ADF p= 0.4183 (Não estacionária ) | KPSS p= 0.0696 (Estacionária     )
+GNB Mercados Emergentes                  | N=180 | ADF p= 0.4751 (Não estacionária ) | KPSS p= 0.0474 (Não estacionária )
+GNB Momentum                             | N=180 | ADF p= 0.4751 (Não estacionária ) | KPSS p= 0.0474 (Não estacionária )
+GNB Portugal Ações                       | N=180 | ADF p= 0.4751 (Não estacionária ) | KPSS p= 0.0474 (Não estacionária )
+IMGA Ações América                       | N=180 | ADF p= 0.4376 (Não estacionária ) | KPSS p= 0.0696 (Estacionária     )
+IMGA Ações Portugal                      | N=180 | ADF p= 0.4751 (Não estacionária ) | KPSS p= 0.0474 (Não estacionária )
+IMGA European Equities                   | N=180 | ADF p= 0.2017 (Não estacionária ) | KPSS p= 0.1000 (Estacionária     )
+IMGA Global Equities Selection           | N=180 | ADF p= 0.2586 (Não estacionária ) | KPSS p= 0.1000 (Estacionária     )
+Montepio Ações Europa                    | N=180 | ADF p= 0.2017 (Não estacionária ) | KPSS p= 0.1000 (Estacionária     )
+Montepio Euro Energy                     | N=180 | ADF p= 0.2017 (Não estacionária ) | KPSS p= 0.1000 (Estacionária     )
+Montepio Euro Financial Servic           | N=180 | ADF p= 0.2017 (Não estacionária ) | KPSS p= 0.1000 (Estacionária     )
+Montepio Euro Healthcare                 | N=180 | ADF p= 0.2017 (Não estacionária ) | KPSS p= 0.1000 (Estacionária     )
+Montepio Euro Utilities                  | N=180 | ADF p= 0.2017 (Não estacionária ) | KPSS p= 0.1000 (Estacionária     )
+Santander Ações Europa                   | N=180 | ADF p= 0.2017 (Não estacionária ) | KPSS p= 0.1000 (Estacionária     )
+Santander Seleção Ações Améric           | N=180 | ADF p= 0.4376 (Não estacionária ) | KPSS p= 0.0696 (Estacionária     )
+
+RESUMO STDMKT: ADF estacionárias = 0/19 (0.0%); KPSS estacionárias = 12/19 (63.2%)
+RECOMENDAÇÃO: Usar com cautela / testar robustez
+
+-------------------------------------------------------------------------------------------------------------------
+VARIÁVEL: ECOSIZE
+-------------------------------------------------------------------------------------------------------------------
+BPI América                              | N=183 | ADF p= 0.9647 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+BPI Portugal                             | N=192 | ADF p= 0.9098 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+Caixa Ações EUA                          | N=192 | ADF p= 0.9727 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+Caixa Ações Emergentes                   | N=192 | ADF p= 0.9098 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+Caixa Ações Líderes Globais              | N=149 | ADF p= 0.6542 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+GNB Mercados Emergentes                  | N=192 | ADF p= 0.9098 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+GNB Momentum                             | N=192 | ADF p= 0.9098 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+GNB Portugal Ações                       | N=192 | ADF p= 0.9098 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+IMGA Ações América                       | N=192 | ADF p= 0.9727 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+IMGA Ações Portugal                      | N=192 | ADF p= 0.9098 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+IMGA European Equities                   | N=192 | ADF p= 0.8672 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+IMGA Global Equities Selection           | N=192 | ADF p= 0.8672 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+Montepio Ações Europa                    | N=192 | ADF p= 0.8672 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+Montepio Euro Energy                     | N=192 | ADF p= 0.8672 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+Montepio Euro Financial Servic           | N=192 | ADF p= 0.8672 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+Montepio Euro Healthcare                 | N=192 | ADF p= 0.8672 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+Montepio Euro Utilities                  | N=192 | ADF p= 0.8672 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+Santander Ações Europa                   | N=192 | ADF p= 0.8672 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+Santander Seleção Ações Améric           | N=192 | ADF p= 0.9727 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+
+RESUMO ECOSIZE: ADF estacionárias = 0/19 (0.0%); KPSS estacionárias = 0/19 (0.0%)
+RECOMENDAÇÃO: Transformar ou remover
+
+-------------------------------------------------------------------------------------------------------------------
+VARIÁVEL: LOG_ECOSIZE
+-------------------------------------------------------------------------------------------------------------------
+BPI América                              | N=183 | ADF p= 0.9541 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+BPI Portugal                             | N=192 | ADF p= 0.9090 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+Caixa Ações EUA                          | N=192 | ADF p= 0.9684 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+Caixa Ações Emergentes                   | N=192 | ADF p= 0.9090 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+Caixa Ações Líderes Globais              | N=149 | ADF p= 0.6523 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+GNB Mercados Emergentes                  | N=192 | ADF p= 0.9090 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+GNB Momentum                             | N=192 | ADF p= 0.9090 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+GNB Portugal Ações                       | N=192 | ADF p= 0.9090 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+IMGA Ações América                       | N=192 | ADF p= 0.9684 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+IMGA Ações Portugal                      | N=192 | ADF p= 0.9090 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+IMGA European Equities                   | N=192 | ADF p= 0.8666 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+IMGA Global Equities Selection           | N=192 | ADF p= 0.8666 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+Montepio Ações Europa                    | N=192 | ADF p= 0.8666 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+Montepio Euro Energy                     | N=192 | ADF p= 0.8666 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+Montepio Euro Financial Servic           | N=192 | ADF p= 0.8666 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+Montepio Euro Healthcare                 | N=192 | ADF p= 0.8666 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+Montepio Euro Utilities                  | N=192 | ADF p= 0.8666 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+Santander Ações Europa                   | N=192 | ADF p= 0.8666 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+Santander Seleção Ações Améric           | N=192 | ADF p= 0.9684 (Não estacionária ) | KPSS p= 0.0100 (Não estacionária )
+
+RESUMO LOG_ECOSIZE: ADF estacionárias = 0/19 (0.0%); KPSS estacionárias = 0/19 (0.0%)
+RECOMENDAÇÃO: Transformar ou remover
+
+-------------------------------------------------------------------------------------------------------------------
+VARIÁVEL: DELTA_LOG_ECOSIZE
+-------------------------------------------------------------------------------------------------------------------
+BPI América                              | N=182 | ADF p= 0.0001 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+BPI Portugal                             | N=191 | ADF p= 0.0076 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+Caixa Ações EUA                          | N=191 | ADF p= 0.0001 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+Caixa Ações Emergentes                   | N=191 | ADF p= 0.0076 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+Caixa Ações Líderes Globais              | N=148 | ADF p= 0.0059 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+GNB Mercados Emergentes                  | N=191 | ADF p= 0.0076 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+GNB Momentum                             | N=191 | ADF p= 0.0076 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+GNB Portugal Ações                       | N=191 | ADF p= 0.0076 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+IMGA Ações América                       | N=191 | ADF p= 0.0001 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+IMGA Ações Portugal                      | N=191 | ADF p= 0.0076 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+IMGA European Equities                   | N=191 | ADF p= 0.0010 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+IMGA Global Equities Selection           | N=191 | ADF p= 0.0010 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+Montepio Ações Europa                    | N=191 | ADF p= 0.0010 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+Montepio Euro Energy                     | N=191 | ADF p= 0.0010 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+Montepio Euro Financial Servic           | N=191 | ADF p= 0.0010 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+Montepio Euro Healthcare                 | N=191 | ADF p= 0.0010 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+Montepio Euro Utilities                  | N=191 | ADF p= 0.0010 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+Santander Ações Europa                   | N=191 | ADF p= 0.0010 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+Santander Seleção Ações Améric           | N=191 | ADF p= 0.0001 (Estacionária     ) | KPSS p= 0.1000 (Estacionária     )
+
+RESUMO DELTA_LOG_ECOSIZE: ADF estacionárias = 19/19 (100.0%); KPSS estacionárias = 19/19 (100.0%)
+RECOMENDAÇÃO: Manter
+
+===================================================================================================================
+RESUMO FINAL
+===================================================================================================================
+fund_return            | ADF: 19/19 (100.0%) | KPSS: 19/19 (100.0%) | Manter
+FLOW                   | ADF: 18/19 (94.7%) | KPSS: 14/19 (73.7%) | Manter
+LNTNA                  | ADF: 0/19 (0.0%) | KPSS: 3/19 (15.8%) | Transformar ou remover
+DELTA_LNTNA            | ADF: 19/19 (100.0%) | KPSS: 13/19 (68.4%) | Usar com cautela / testar robustez
+LNAGE                  | ADF: 15/19 (78.9%) | KPSS: 0/19 (0.0%) | Usar com cautela / testar robustez
+STDFND                 | ADF: 4/19 (21.1%) | KPSS: 17/19 (89.5%) | Usar com cautela / testar robustez
+STDMKT                 | ADF: 0/19 (0.0%) | KPSS: 12/19 (63.2%) | Usar com cautela / testar robustez
+ECOSIZE                | ADF: 0/19 (0.0%) | KPSS: 0/19 (0.0%) | Transformar ou remover
+LOG_ECOSIZE            | ADF: 0/19 (0.0%) | KPSS: 0/19 (0.0%) | Transformar ou remover
+DELTA_LOG_ECOSIZE      | ADF: 19/19 (100.0%) | KPSS: 19/19 (100.0%) | Manter
+
+VARIÁVEIS RECOMENDADAS PARA O MODELO FINAL:
+fund_return, FLOW, DELTA_LNTNA, STDFND, STDMKT, DELTA_LOG_ECOSIZE
